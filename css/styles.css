@@ -50,7 +50,7 @@ h2 {
 .display-center {
   text-align: center;
 }
-.display-button {
+.button-style__display-button {
   display: flex;
 
   justify-content: center;
@@ -64,7 +64,7 @@ h2 {
   position: relative;
 }
 
-.display-wrap {
+.section-pictures__display-wrap {
   flex-wrap: wrap;
 }
 
@@ -607,7 +607,7 @@ padding: 49px 45px 49px 24px;
 
 }
 
-.box {
+.section-pictures__box {
   position: relative;
   width: 370px;
   height: 294px;
