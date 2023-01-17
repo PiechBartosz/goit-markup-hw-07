@@ -166,9 +166,9 @@ h2 {
 .index-img-style__paragraph-structure {
   padding-bottom: 16px;
 }
-.background {
+/* .background {
   background-color: var(--background-color);
-}
+} */
 
 .address-structure {
   font-size: 14px;
@@ -283,18 +283,26 @@ h2 {
   border-radius: 4px;
   position: relative;
 }
-.address-style {
+.footer-shape__address-style {
   font-style: normal;
-}
-
-.footer-padding {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-.address-padding {
   margin-top: 20px;
 }
+
+/* .footer-padding {
+  padding-top: 60px;
+  padding-bottom: 60px;
+} */
+
+.footer-shape {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--background-color);
+}
+
+
+/* .address-padding {
+  margin-top: 20px;
+} */
 
 .background-3 {
   background-color: var(--third-color);
@@ -310,7 +318,7 @@ h2 {
   padding-bottom: 0;
 }
 
-.marginl {
+.footer-shape__margin {
   margin-top: 9px;
 }
 
@@ -423,7 +431,7 @@ h2 {
   fill: currentColor;
 }
 
-.footer-display {
+.footer-shape__footer-display {
   display: flex;
 }
 
@@ -436,25 +444,25 @@ h2 {
   margin-bottom: 20px;
   padding-top: 12px;
 }
-.social-links {
+.join-us__social-links {
   display: flex;
   list-style: none;
   gap: 10px;
 }
 
-.shape {
+.join-us__shape {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   fill: #ffffff;
 }
-.shape:hover {
+.join-us__shape:hover {
   background-color: var(--fifth-color);
   cursor: pointer;
   fill: #ffffff;
   border-radius: 50%;
 }
 
-.join-us-margin {
+.join-us__margin {
   margin-left: 70px;
 }
 
@@ -609,12 +617,23 @@ padding: 49px 45px 49px 24px;
 overflow: hidden;
 }
 
-.newsletter-margin {
+.newsletter {
   margin-left: 78px;
  
 }
 
-.borderstyle1 {
+
+.newsletter__join-us {
+  color: var(--third-color);
+  font-weight: 700px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  margin-bottom: 20px;
+  padding-top: 12px;
+}
+
+.newsletter__borderstyle1 {
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -625,7 +644,7 @@ padding: 15px;
 color: var(--third-color);
 }
 
-.footer_botton {
+.newsletter__footer-botton {
   background: #2196F3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
@@ -641,18 +660,13 @@ align-items: center;
 padding: 10px 76px 10px 42px;
 vertical-align: middle;
 
-
-
-
-
-
 }
 
-.display-footer-elements {
+.newsletter__display {
   display: flex;
 }
 
-.footer-submit-position {
+.newsletter__footer-submit-position {
   display: flex;
   position: absolute;
 
@@ -783,7 +797,7 @@ line-height: 1.87;
 cursor:pointer;
 }
 
-.borderstyle1:hover {
+.newsletter__borderstyle1:hover {
   border: 1px solid var(--fifth-color)
 }
 
