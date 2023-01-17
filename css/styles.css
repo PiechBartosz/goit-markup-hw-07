@@ -565,13 +565,13 @@ h2 {
 
 }
 
-.backdrop.is-hidden .modal {
+.modal__backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0.3);
 }
 
 
 
-.backdrop {
+.modal__backdrop {
   position: fixed;
   left: 0;
   top: 0;
@@ -580,7 +580,7 @@ h2 {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-.close-btn {
+.modal__close-btn {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -602,7 +602,7 @@ padding: 49px 45px 49px 24px;
   
 }
 
-.close-btn:hover {
+.modal__close-btn:hover {
   border: 1px solid var(--fifth-color)
 
 }
@@ -672,7 +672,7 @@ vertical-align: middle;
 
 }
 
-.text_modal {
+.modal__textmodal1 {
 
   font-size: 20px;
  margin-top: 40px;
@@ -682,7 +682,7 @@ vertical-align: middle;
 
 }
 
-.text_modal2 {
+.modal__textmodal2 {
   color: #757575;
   font-size: 12px;
   line-height: 1.16;
@@ -692,11 +692,11 @@ vertical-align: middle;
 
 }
 
-.field {
+.mnodal__field {
   display: flex;
   flex-direction: column;
 }
-.input-style {
+.modal__input-style {
   margin-top: 10px;
   margin-left: 40px;
   margin-right: 40px;
@@ -710,7 +710,7 @@ outline: 0;
 
 }
 
-.input-style2 {
+.modal__input-style2 {
 width: 448px;
 height: 120px;
 margin-top: 10px;
@@ -722,7 +722,7 @@ resize: none;
 outline: 0;
 }
 
-.footer-img-position {
+.modal__footer-img-position {
 
 position: absolute;
 margin-left: 60px;
@@ -730,9 +730,6 @@ margin-bottom: 0;
 top: 50%;
 transform: translateY(-50%); 
 margin-top: 4px;
-
-
-
 
 
 
@@ -748,14 +745,14 @@ position: absolute;
 
 }
 
-.footer-img-position:hover {
+.modal__footer-img-position:hover {
   fill: var(--fifth-color);
   cursor: pointer;
 }
 
 
 
-.checkbox {
+.modal__checkbox {
  
   margin-top: 20px;
   margin-left: 54px;
@@ -769,16 +766,16 @@ position: absolute;
 
 }
 
-.text-modal {
+.modal__text-modal {
   color: var(--fifth-color);
 text-decoration: underline;
 
 }
-.checkbox-label {
+.modal__checkbox-label {
   padding-left: 7px;
   vertical-align: middle;
 }
-.submit-modal {
+.modal__submit-modal {
   width: 200px;
 height: 50px;
 margin-left: 164px;
@@ -793,7 +790,7 @@ font-size: 16px;
 line-height: 1.87;
 }
 
-.submit-modal:hover {
+.modal__submit-modal:hover {
 cursor:pointer;
 }
 
@@ -805,10 +802,10 @@ cursor:pointer;
   color: var(--third-color);
 }
 
-.input-style:focus,
-.input-style:hover, 
-.input-style2:focus, 
-.input-style2:hover {
+.modal__input-style:focus,
+.modal__input-style:hover, 
+.modal__input-style2:focus, 
+.modal__input-style2:hover {
   fill: var(--fifth-color);
   border: 1px solid var(--fifth-color);
 }
