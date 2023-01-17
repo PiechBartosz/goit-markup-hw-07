@@ -37,7 +37,7 @@ padding: 50px 0 94px 0;
 h2 {
   margin-bottom: 50px;
 }
-.background-header {
+.business__background-header {
   text-align: center;
   padding: 200px 0;
   background-color: var(--background-color);
@@ -113,7 +113,7 @@ h2 {
 }
 
 .background-2 {
-  background-color: #f5f4fa;
+  background-color:  var(--seventh-color)
 }
 
 .nav-style__nav-structure {
@@ -163,7 +163,7 @@ h2 {
   padding: 4px 24px 20px 24px;
 }
 
-.paragraph-structure {
+.index-img-style__paragraph-structure {
   padding-bottom: 16px;
 }
 .background {
@@ -266,7 +266,7 @@ h2 {
   0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.button-style2 {
+.business__button-style {
   color: var(--third-color);
   background-color: var(--fifth-color);
   font-weight: 700;
@@ -341,7 +341,7 @@ h2 {
   padding-bottom: 30px;
 }
 
-.ellypse {
+.index-img-style__ellypse {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   fill: #afb1b8;
@@ -351,14 +351,14 @@ h2 {
 
 
 
-.ellypse:hover {
+.index-img-style__ellypse:hover {
   background-color: var(--fifth-color);
   cursor: pointer;
   border-radius: 50%;
   fill: #ffffff;
 }
 
-.icon-position {
+.index-img-style__icon-position {
   display: flex;
   padding-bottom: 30px;
   padding-left: 32px;
@@ -368,14 +368,14 @@ h2 {
 
 }
 
-.our-clients-display {
+.our-clients__display {
   display: flex;
   list-style: none;
   align-items: center;
   gap: 30px;
 }
 
-.clients {
+.our-clients__clients {
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
@@ -384,26 +384,26 @@ h2 {
   padding: 16px 32px;
   fill: #afb1b8;
 }
-.clients:hover {
+.our-clients__clients:hover {
   border-color: var(--fifth-color);
   cursor: pointer;
   fill: var(--fifth-color);
 }
-.clients:focus {
+.our-clients__clients:focus {
   border-radius: 50%;
   color: var(--fifth-color);
 }
 
-.clients-size {
+.our-clients__size {
   width: 106;
   height: 60.04;
 }
 
-.our-clients-section {
+.our-clients {
   margin-top: 94px;
 }
 
-.our-clients-padding {
+.our-clients__padding {
   padding-bottom: 94px;
 }
 
@@ -506,7 +506,7 @@ h2 {
   transform: translateY(0);
 }
 
-.layout {
+.layout-occupation {
   position: absolute;
   font-size: 14px;
   font-weight: 700;
