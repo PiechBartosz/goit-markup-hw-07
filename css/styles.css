@@ -144,7 +144,7 @@ h2 {
   color: var(--second-color);
   text-decoration-line: none;
 }
-.portfolio-h3-structure {
+.section-pictures__portfolioh3 {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -333,12 +333,12 @@ h2 {
   border-radius: 0px 0px 4px 4px;
 }
 
-.img-portfolio-border {
+.section-pictures__img-portfolioborder {
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
 }
-.p-portfolio-border {
+.section-pictures__portfolioborder {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
 }
@@ -490,7 +490,7 @@ h2 {
   height: auto;
 }
 
-.overlay {
+.section-pictures__overlay {
   position: absolute;
   bottom: 0;
   background: rgba(33, 150, 243, 0.9);
@@ -509,7 +509,7 @@ h2 {
 
 }
 
-.border-images:hover .overlay {
+.border-images:hover .section-pictures__overlay {
 
   transform: translateY(0);
 }
@@ -593,7 +593,7 @@ h2 {
   
 }
 
-.overlay-p {
+.section-pictures__overlay-p {
 padding: 49px 45px 49px 24px;
   font-size: 18px;
   line-height: 1.55;
