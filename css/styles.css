@@ -71,7 +71,7 @@ h2 {
 .a {
   margin-left: 93px;
 }
-.flex-nav-container {
+.header-stye__flex-nav-container {
   display: flex;
   align-items: center;
 }
@@ -80,7 +80,7 @@ h2 {
   border-bottom: 1px solid #ececec;
 }
 
-.nav-display-form {
+.nav-style__nav-display-form {
   display: flex;
   align-items: center;
   gap: 50px;
@@ -90,7 +90,7 @@ h2 {
   margin-left: 93px;
 }
 
-.padding-body {
+.header-stye__padding {
   padding-bottom: 25px;
   padding-top: 24px;
 }
@@ -99,14 +99,14 @@ h2 {
   margin: 0;
 }
 
-.display-form-contacts {
+.header-style__display-form-contacts {
   display: flex;
   align-items: center;
   gap: 50px;
   margin-left: auto;
 }
 
-.inner {
+.nav-style {
   display: flex;
   align-items: center;
   gap: 93px;
@@ -116,7 +116,7 @@ h2 {
   background-color: #f5f4fa;
 }
 
-.nav-structure {
+.nav-style__nav-structure {
   color: var(--main-color);
   font-weight: 500;
   font-size: 14px;
@@ -125,15 +125,15 @@ h2 {
   text-decoration-line: none;
 }
 
-.nav-structure-active {
+.nav-style__nav-structure--active {
   color: var(--fifth-color);
 }
 
-.nav-structure:hover {
+.nav-style__nav-structure:hover {
   color: var(--fifth-color);
 }
 
-.nav-structure:focus {
+.nav-style__nav-structure:focus {
   color: var(--fifth-color);
 }
 
@@ -234,10 +234,10 @@ h2 {
   text-decoration: none;
 }
 
-.brand-color {
+.logo__brand-color {
   color: var(--fifth-color);
 }
-.footer-logo {
+.logo__footer-logo {
   color: var(--third-color);
   padding-top: 60px;
 }
@@ -300,7 +300,7 @@ h2 {
   background-color: var(--third-color);
 }
 
-.nav-contact-color {
+.header-style__header-contact-color {
   color: var(--second-color);
   display: flex;
   align-items: center;
@@ -407,7 +407,7 @@ h2 {
   padding-bottom: 94px;
 }
 
-.iphone-icon-position {
+.header-style__iphone-icon-position {
   vertical-align: middle;
   align-items: center;
 
@@ -415,7 +415,7 @@ h2 {
   fill: currentColor;
 }
 
-.mail-icon-position {
+.header-style__mail-icon-position {
   vertical-align: middle;
   align-items: center;
 
