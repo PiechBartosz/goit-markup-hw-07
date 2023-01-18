@@ -1,0 +1,32 @@
+.nav-style {
+  display: flex;
+  align-items: center;
+  gap: 93px;
+}
+
+.nav-style__nav-display-form {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-left: 93px;
+}
+
+.nav-style__nav-structure {
+  color: $main-color;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration-line: none;
+}
+.nav-style__nav-structure--active {
+  color: $fifth-color;
+}
+
+.nav-style__nav-structure:focus {
+  color: $fifth-color;
+}
+
+.nav-style__nav-structure:hover {
+  color: $fifth-color;
+}
