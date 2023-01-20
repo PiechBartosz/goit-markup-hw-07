@@ -26,25 +26,3 @@
   border-radius: 4px;
   position: relative;
 }
-
-.lorem {
-  padding-bottom: 0;
-}
-
-.rectangle-style {
-  background-color: $seventh-color;
-  border-radius: 4px;
-  padding-bottom: 30px;
-}
-
-.p-text-structure {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: $second-color;
-  text-decoration-line: none;
-}
-.address2-structure:hover,
-.p-text-structure:hover {
-  color: $third-color;
-}

@@ -53,15 +53,25 @@ body {
   margin: 0 auto;
 }
 
+.h2-text-index {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
 .h3-text-index {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   padding-top: 30px;
-
   color: $main-color;
   margin-bottom: 10px;
+}
+
+h2 {
+  margin-bottom: 50px;
 }
 
 .display-center {
@@ -114,4 +124,25 @@ body {
   letter-spacing: 0.03em;
   color: $second-color;
   padding: 4px 24px 20px 24px;
+}
+.lorem {
+  padding-bottom: 0;
+}
+
+.rectangle-style {
+  background-color: $seventh-color;
+  border-radius: 4px;
+  padding-bottom: 30px;
+}
+
+.p-text-structure {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: $second-color;
+  text-decoration-line: none;
+}
+.address2-structure:hover,
+.p-text-structure:hover {
+  color: $third-color;
 }
