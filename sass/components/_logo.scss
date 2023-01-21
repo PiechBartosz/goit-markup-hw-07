@@ -6,13 +6,13 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
-}
 
-.logo__footer-logo {
-  color: $third-color;
-  padding-top: 60px;
-}
+  &__footer-logo {
+    color: $third-color;
+    padding-top: 60px;
+  }
 
-.logo__brand-color {
-  color: $fifth-color;
+  &__brand-color {
+    color: $fifth-color;
+  }
 }
