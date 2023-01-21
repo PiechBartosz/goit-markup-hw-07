@@ -2,17 +2,17 @@
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: $background-color;
-}
 
-.footer-shape__footer-display {
-  display: flex;
-}
+  &__footer-display {
+    display: flex;
+  }
 
-.footer-shape__address-style {
-  font-style: normal;
-  margin-top: 20px;
-}
+  &__address-style {
+    font-style: normal;
+    margin-top: 20px;
+  }
 
-.footer-shape__margin {
-  margin-top: 9px;
+  &__margin {
+    margin-top: 9px;
+  }
 }
