@@ -6,16 +6,15 @@
   &__paragraph-structure {
     padding-bottom: 16px;
   }
-}
-
-.index-img-style__ellypse {
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.1);
-  fill: #afb1b8;
-}
-.index-img-style__ellypse:hover {
-  background-color: $fifth-color;
-  cursor: pointer;
-  border-radius: 50%;
-  fill: #ffffff;
+  &__ellypse {
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    fill: #afb1b8;
+  }
+  &__ellypse:hover {
+    background-color: $fifth-color;
+    cursor: pointer;
+    border-radius: 50%;
+    fill: #ffffff;
+  }
 }
