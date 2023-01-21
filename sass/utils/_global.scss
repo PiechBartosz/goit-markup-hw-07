@@ -146,3 +146,9 @@ h2 {
 .p-text-structure:hover {
   color: $third-color;
 }
+
+.input-wrapper:hover svg,
+.input-wrapper:hover input {
+  fill: #2196f3;
+  border-color: #2196f3;
+}
